@@ -52,3 +52,35 @@ body {
     left: 46%;
     z-index: 20;
 }
+
+.focus.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.svet {
+    position: absolute;
+    top: -10%;
+    left: -2.9%;
+    z-index: 17;
+}
+
+.fokusnik {
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    left: 34%;
+    top: 42%;
+    z-index: 18;
+}
+
+.hat  {
+    width: 6%;
+    height: 8%;
+    transform: rotate(180deg);
+    position: absolute;
+    right: 42%;
+    top: 52%;
+    z-index: 18;
+    
+}

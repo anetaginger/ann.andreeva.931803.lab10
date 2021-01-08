@@ -84,3 +84,19 @@ body {
     z-index: 18;
     
 }
+
+.bunny, .bird {
+    width: 3%;
+    height: 5%;
+    position: absolute;
+    right: 43.5%;
+    top: 52.5%;
+    z-index: 17;
+    transition: 0.5s ease;
+}
+
+.bunny.active, .bird.active {
+    top: 46%;
+    transition: 1.5s ease;
+}
+
